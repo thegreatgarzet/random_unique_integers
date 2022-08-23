@@ -2,7 +2,7 @@
 Script criado para gerar listas de Integers aleatórios e não repetidos na Unity.
 
 ## Como usar
-Coloque o script onde desejar em seu projeto na Unity e quando quiser utilizar s funções, insira *using GarzetTools;* no topo do script.
+Coloque o script onde desejar em seu projeto na Unity e quando quiser utilizar as funções, insira *using GarzetTools;* no topo do script.
 
 A utilização é feita da seguitne forma:
 
