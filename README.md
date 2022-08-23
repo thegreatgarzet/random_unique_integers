@@ -1,9 +1,11 @@
 # random_unique_integers
-Script criado para gerar arrays de Integers aleatórios e não repetidos na Unity.
+Script criado para gerar listas de Integers aleatórios e não repetidos na Unity.
 
 ## Como usar
-Após inserir o script em seu projeto, você pode começar a usa-lo conforme o exemplo abaixo:
+Coloque o script onde desejar em seu projeto na Unity e quando quiser utilizar s funções, insira *using GarzetTools;* no topo do script.
 
-int[] i = GetRandom.RandomNumInRange(X, Y); 
+A utilização é feita da seguitne forma:
 
-Sendo X o tamanho do array de ints aleatórios e Y o maior número aleatório possível.
+List< int > i = GetRandom.RandomNumInRange(X, Y); 
+
+Sendo X o tamanho do array de ints aleatórios e Y o maior número aleatório possível. Caso não insira um valor máximo, ele é definido como 100.
